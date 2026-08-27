@@ -1,9 +1,16 @@
-.body {
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+.monsieur-la-doulaise-regular {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100dvh;
-    font-size: 10px;
-
+    margin: auto;
 }
 
 * {
@@ -11,53 +18,334 @@
 }
 
 .container {
-    padding: 1rem;
+    margin: 0;
+    padding-bottom: 0;
 }
 
-.top-left {
+.top-left,
+.top-right {
     display: flex;
-    gap: 10px;
+    font-size: 1rem;
     align-items: center;
-    font-size: 10px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082);
 }
 
 .logoPng {
-    height: 35px;
+    height: 60px;
+    padding-right: 15px;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2px;
 }
 
 .h3 {
     display: flex;
+    padding-left: 10px;
     gap: 10px;
     align-items: center;
 }
-.svgg{
+
+.svgg {
     display: flex;
     align-items: center;
     gap: 3px;
     justify-content: center;
 }
-.right {
+
+.top-top-right {
     display: flex;
-    gap: 10px;
+    gap: 32px;
     align-items: center;
 }
-.btn{
-    font-size: 7px; ;
-    background-color: #3573D4;
+
+.btn {
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #3B7BDD;
+    display: flex;
+    align-items: center;
     border: none;
     color: white;
-    border-radius: 1rem;
-    padding: 4px;
+    height: 34px;
+    margin-left: 2rem;
+    border-radius: 3rem;
+    padding: 1.3rem;
+    /* width: 5%; */
 }
-.h2{
-    border-right: 1px solid rgba(0, 0, 0, 0.233);
+
+.h2 {
+    border-right: 1px solid rgba(0, 0, 0, 0.082);
     padding-right: 10px;
     padding-left: 10px;
-    border-left: 1px solid rgba(0, 0, 0, 0.233);
+    border-left: 1px solid rgba(0, 0, 0, 0.082);
 
+}
+
+.top-center {
+    display: flex;
+    padding-left: 1rem;
+    font-size: 15px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 7px;
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.home3 {
+    padding-right: 16px;
+    margin-top: 0;
+}
+
+.home2 {
+    padding-left: 16px;
+    margin-bottom: 0;
+
+}
+
+.hero {
+    display: flex;
+    background-image: url(https://i.postimg.cc/50DnzDKk/Gemini-Generated-Image-ikdwljikdwljikdw.jpg);
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    min-height: 80dvh;
+    max-width: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.billie {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 2rem;
+}
+
+.name {
+    font-size: 3rem;
+
+}
+
+.sign {
+    margin: 0;
+}
+
+.text {
+    opacity: .8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.notsvg {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.adobe {
+    height: 50px;
+}
+
+.cen-Text {
+    font-size: 2.7rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.x {
+    font-weight: 300;
+}
+
+.miniText {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 86%;
+    font-weight: 500;
+}
+
+.con2 {
+    padding: 0;
+}
+
+.bm {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btnsDiv {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    color: white;
+    border: none;
+    background-color: #3573D4;
+    height: 64px;
+    font-size: 18px;
+    width: 25%;
+}
+
+.buy {
+    border: 3px solid white;
+    background-color: inherit;
+    border-radius: 3rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.center {
+    max-width: inherit;
+    width: 100%;
+    background-color: #F6F6F6;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.desc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+
+}
+
+.left {
+    width: 50%;
+
+}
+
+.leftCenterTitle {
+    font-size: 1.5rem;
+    font-weight: 740;
+}
+
+.leftCenterDesc {
+    width: 100%;
+    font-weight: 700;
+}
+
+.right {
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+    width: 40%;
+}
+
+.r1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.r2 {
+    display: flex;
+}
+
+.r3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightCenterTitle {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.rightCenterTitle2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    padding-left: 1rem;
+    font-weight: 700;
+
+}
+
+.bigR {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.pp {
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.price {
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    gap: 5px;
+}
+
+.firstY {
+    font-weight: 600;
+    margin: 0;
+}
+
+.secondY {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 1.5rem;
+}
+
+.intext {
+    color: #6E9AB8;
+    margin: 0;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.footerBar {
+    display: flex;
+    gap: 1rem;
+}
+
+.searchSvg {
+    height: 20px;
+    width: 20px;
 }
